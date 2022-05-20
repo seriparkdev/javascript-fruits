@@ -31,7 +31,7 @@ main {
     flex-direction: column;
     flex-shrink: 0;
     padding: 10px;
-    width: 140px;
+    width: 120px;
 }
 
 .addButton {
@@ -41,6 +41,7 @@ main {
     height: 30px;
     margin-bottom: 10px;
     cursor: pointer; /*마우스를 갖다대면 손모양으로*/
+    color: black;
 }
 
 .addButton:hover {
