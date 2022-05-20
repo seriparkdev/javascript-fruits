@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🧺FRUIT</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div id="title">🧺FRUIT</div>
+    </header>
+    <main>
+    <aside id="sidebar">
+        <button type="button" class="addButton" id="addButton">추가</button>
+        <span>복숭아</span>
+        <span>포도</span>
+        <span>청사과</span>
+        <span>파인애플</span>
+        <span>딸기</span>
+    </aside>
+    <section id="container">
+        <div class="item">
+            <img src="./images/복숭아.jpg" alt="복숭아">
+            <span>달달한 복숭아</span>
+        </div>
+        <div class="item">
+            <img src="./images/포도.jpg" alt="포도">
+            <span>맛있는 포도</span>
+        </div>
+        <div class="item">
+            <img src="./images/청사과.png" alt="청사과">
+            <span>시원한 청사과</span>
+        </div>
+        <div class="item">
+            <img src="./images/파인애플.jpg" alt="파인애플">
+            <span>신 파인애플</span>
+        </div>
+        <div class="item">
+            <img src="./images/딸기.jpg" alt="딸기">
+            <span>달콤한 딸기</span>
+        </div>
+    </section>
+    </main>
+
+    <div class="modalOverlay" id="modal">
+        <form class="modal" id="addForm">
+            <span class="xButton" id="xButton">X</span>
+            <label for="name" class="label">이름</label>
+            <input type="text" id="name" placeholder="바나나" class="input" required>
+            <label for="image" class="label">이미지</label>
+            <input type="text" id="image" placeholder="URL" class="input" required>
+            <label for="content" class="label">내용</label>
+            <input type="text" id="content" placeholder="얼려먹으면 맛있는 바나나" class="input" required>
+            <button type="submit" class="submitbtn">저장</button>
+        </form>
+    </div>
+
+    <script src="./modal.js"></script>
+    <script src="./addItem.js"></script>
+</body>
+</html>
