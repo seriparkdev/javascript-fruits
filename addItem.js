@@ -29,4 +29,4 @@ function addItemHandle(e) {
 }
 
 document.getElementById("modal").addEventListener("submit", addItemHandle); 
-/*submitbtn을 click하는 이벤트가 생기면 addItemHandle을 실행한다.*/
+/*submitbtn을 click하는 이벤트가 생기면 addItemHandle을 실행*/
